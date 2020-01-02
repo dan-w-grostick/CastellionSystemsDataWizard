@@ -1,9 +1,9 @@
 // TESTING_ON
 #define TESTING_OFF
 
-#include "gtest/gtest.h"
-
 #ifdef TESTING_ON
+
+#include "gtest/gtest.h"
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);

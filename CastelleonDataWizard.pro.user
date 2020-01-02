@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.0, 2020-01-01T22:38:58. -->
+<!-- Written by QtCreator 4.11.0, 2020-01-02T16:13:25. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -302,8 +302,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/dangrostick/development/CastelleonDataWizard/CastelleonDataWizard.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/dangrostick/development/CastelleonDataWizard/CastelleonDataWizard.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">CastelleonDataWizard2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/Users/dangrostick/development/CastellionDataWizard/CastellionSystemsDataWizard/CastelleonDataWizard.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/Users/dangrostick/development/CastellionDataWizard/CastellionSystemsDataWizard/CastelleonDataWizard.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

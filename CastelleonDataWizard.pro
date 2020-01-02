@@ -51,18 +51,18 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../lib/gtest/release/ -lgtest
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../lib/gtest/debug/ -lgtest
-else:unix: LIBS += -L$$PWD/../lib/gtest/ -lgtest
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../lib/gtest/release/ -lgtest
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../lib/gtest/debug/ -lgtest
+else:unix: LIBS += -L$$PWD/../../lib/gtest/ -lgtest
 
-INCLUDEPATH += $$PWD/../lib/gtest/include
-DEPENDPATH += $$PWD/../lib/gtest/include
+INCLUDEPATH += $$PWD/../../lib/gtest/include
+DEPENDPATH += $$PWD/../../lib/gtest/include
 
-win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../lib/gtest/release/libgtest.a
-else:win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../lib/gtest/debug/libgtest.a
-else:win32:!win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../lib/gtest/release/gtest.lib
-else:win32:!win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../lib/gtest/debug/gtest.lib
-else:unix: PRE_TARGETDEPS += $$PWD/../lib/gtest/libgtest.a
+win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../../lib/gtest/release/libgtest.a
+else:win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../../lib/gtest/debug/libgtest.a
+else:win32:!win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/../../lib/gtest/release/gtest.lib
+else:win32:!win32-g++:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/../../lib/gtest/debug/gtest.lib
+else:unix: PRE_TARGETDEPS += $$PWD/../../lib/gtest/libgtest.a
 
 DISTFILES += \
     test_file.dat
